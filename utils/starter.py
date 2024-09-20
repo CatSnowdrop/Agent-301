@@ -1,4 +1,4 @@
-from utils.agent301 import Agent307
+from utils.agent301 import Agent301
 from asyncio import sleep
 from random import uniform
 from data import config
