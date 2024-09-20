@@ -43,7 +43,7 @@ async def start(thread: int, session_name: str, phone_number: str, proxy: [str, 
             await agent.tasks()
             await sleep(uniform(2, 8))
             
-            sleep_timer = uniform(*config.DELAYS['RESTARTING'])
+            sleep_timer = round(uniform(*config.DELAYS['RESTARTING']))
             logger.success(f"Thread {thread} | {account} | Sleep: {sleep_timer} second...")
             await asyncio.sleep(sleep_timer)
 
