@@ -21,7 +21,7 @@ My telegram: [@CatSnowdrop](https://t.me/CatSnowdrop)
 | DELAYS                       |                                                                                                |
 | **RELOGIN**                  | Delay after unsuccessful login _(eg [5, 7])_                                                   |
 | **ACCOUNT**                  | Delay between connections to accounts (the more accounts, the longer the delay) _(eg [5, 15])_ |
-| **PLAY_WHEEL**               | Delay between Wheel games _(eg [5, 20])_                                                       |
+| **PLAY_WHEEL**               | Delay between Wheel games _(eg [10, 20])_                                                       |
 | **TASK_COMPLETE**            | Delay after completed the task _(eg [10, 15])_                                                 |
 | **GET_TASKS**                | Delay after receiving list of tasks _(eg [5, 10])_                                             |
 | **RESTARTING**               | Delay before restart _(eg [21600, 43200])_                                                     |
