@@ -7,7 +7,7 @@ REF_LINK = 'https://t.me/Agent301Bot/app?startapp=onetime352437152'
 DELAYS = {
     "RELOGIN": [5, 7],  # delay after a login attempt
     'ACCOUNT': [5, 15],  # delay between connections to accounts (the more accounts, the longer the delay)
-    'PLAY_WHEEL': [5, 20],   # delay between wheel games
+    'PLAY_WHEEL': [10, 20],   # delay between wheel games
     'TASK_COMPLETE': [10, 15],  # delay after completed the task
     'GET_TASKS': [5, 10],  # delay after receiving list of tasks
     'RESTARTING': [21600, 43200]  # delay before restart
