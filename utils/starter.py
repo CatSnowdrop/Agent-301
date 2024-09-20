@@ -13,7 +13,9 @@ async def start(thread: int, session_name: str, phone_number: str, proxy: [str, 
     agent = Agent301(session_name=session_name, phone_number=phone_number, thread=thread, proxy=proxy)
     account = session_name + '.session'
 
-    await sleep(uniform(*config.DELAYS['ACCOUNT']))
+    sleep_timer = round(uniform(*config.DELAYS['ACCOUNT']))
+    logger.info(f"Thread {thread} | {account} | Bot will start in {sleep_timer}s")
+    await sleep(sleep_timer)
 
     attempts = 3
     while attempts:
