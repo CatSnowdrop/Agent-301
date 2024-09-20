@@ -157,7 +157,20 @@ class Agent301:
             resp = await self.session.post("https://api.agent301.org/wheel/spin")
             resp_json = await resp.json()
             if resp_json.get('ok') == True:
+                
+                reward_mapping = {
+                    'tc4': '4 TON',
+                    'c1000': '1000 AP',
+                    't1': '1 Ticket',
+                    'nt1': '1 NOT',
+                    'nt5': '5 NOT',
+                    't3': '3 Ticket',
+                    'tc1': '0.01 TON',
+                    'c10000': '10000 AP'
+                }
                 reward = resp_json.get('result').get('reward')
+                reward = reward_mapping.get(reward)
+                
                 balance = resp_json.get('result').get('balance')
                 toncoin = resp_json.get('result').get('toncoin')
                 notcoin = resp_json.get('result').get('notcoin')
