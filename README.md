@@ -1,5 +1,5 @@
 # Agent 301
-clicker for [https://t.me/Agent301Bot](t.me/Agent301Bot/app?startapp=onetime352437152)
+clicker for [https://t.me/Agent301Bot](https://t.me/Agent301Bot/app?startapp=onetime352437152)
 
 My telegram: [@CatSnowdrop](https://t.me/CatSnowdrop)
 
@@ -19,7 +19,6 @@ My telegram: [@CatSnowdrop](https://t.me/CatSnowdrop)
 | **REF_LINK**         	       | Your referral link  _(eg 'https://t.me/Agent301Bot/app?startapp=onetime352437152')_            |
 | **BLACKLIST_TASK**           | Blacklist tasks  _(eg ['Invite 3 friends', 'Watch short video'])_                              |
 | DELAYS                       |                                                                                                |
-|------------------------------|------------------------------------------------------------------------------------------------|
 | **RELOGIN**                  | Delay after unsuccessful login _(eg [5, 7])_                                                   |
 | **ACCOUNT**                  | Delay between connections to accounts (the more accounts, the longer the delay) _(eg [5, 15])_ |
 | **PLAY_WHEEL**               | Delay between Wheel games _(eg [5, 20])_                                                       |
@@ -27,7 +26,6 @@ My telegram: [@CatSnowdrop](https://t.me/CatSnowdrop)
 | **GET_TASKS**                | Delay after receiving list of tasks _(eg [5, 10])_                                             |
 | **RESTARTING**               | Delay before restart _(eg [21600, 43200])_                                                     |
 | PROXY                        |                                                                                     |
-|------------------------------|------------------------------------------------------------------------------------------------|
 | **PROXY_TYPES-TG**           | Proxy type for telegram session _(eg 'socks5')_                                                |
 | **PROXY_TYPES-REQUESTS**     | Proxy type for requests _(eg 'socks5')_                                                        |
 | **WORKDIR**                  | directory with session _(eg "sessions/")_                                                      |
