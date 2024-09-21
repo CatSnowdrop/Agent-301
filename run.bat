@@ -1,5 +1,7 @@
 @echo off
 
+title Agent 301 bot
+
 if not exist venv (
     echo Creating virtual environment...
     python -m venv venv
