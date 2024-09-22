@@ -26,8 +26,9 @@
 - To add a task to the blacklist, enter the line with its name in the data/BLACKLIST_TASK.txt file.
 
 ## Quick Start 📚
-To install libraries and run bot - open run.bat on Windows
-To install libraries and run bot - open run.sh on Linux
+Windows: To install libraries and run bot - open run.bat
+
+Linux: To install libraries and run bot - open run.sh
 
 ## Prerequisites
 Before you begin, make sure you have the following installed:
