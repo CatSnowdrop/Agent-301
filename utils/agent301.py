@@ -257,9 +257,8 @@ class Agent301:
 
 
     async def login(self):
-        if self.proxy:
-            print(self.proxy)
-        print(f'headers {self.headers}')
+        if self.proxy['hostname']:
+            await self.check_proxy(self.proxy)
         self.session.headers.pop('Authorization', None)
         query = await self.get_tg_web_data()
 
