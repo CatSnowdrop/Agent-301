@@ -6,3 +6,4 @@ fake-useragent==1.5.1
 aiohttp_socks==0.8.4
 faker==27.0.0
 inquirer==3.4.0
+configparser==7.1.0
