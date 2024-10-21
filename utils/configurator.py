@@ -279,7 +279,7 @@ async def configurator():
         config['Config']['DELAY_RELOGIN'] = f'{DELAY_RELOGIN_MIN}|{DELAY_RELOGIN_MAX}'
 
     if DELAY_ACCOUNT_MIN != '' and DELAY_ACCOUNT_MAX != '' and (int(DELAY_ACCOUNT_MIN) < int(DELAY_ACCOUNT_MAX)):
-        config['Config']['DELAY_ACCOUNT'] = f'{DELAY_ACCOUNT_MIN}|{DELAY_ACCOUNT_MIN}'
+        config['Config']['DELAY_ACCOUNT'] = f'{DELAY_ACCOUNT_MIN}|{DELAY_ACCOUNT_MAX}'
 
     if DELAY_PLAY_WHEEL_MIN != '' and DELAY_PLAY_WHEEL_MAX != '' and (int(DELAY_PLAY_WHEEL_MIN) < int(DELAY_PLAY_WHEEL_MAX)):
         config['Config']['DELAY_PLAY_WHEEL'] = f'{DELAY_PLAY_WHEEL_MIN}|{DELAY_PLAY_WHEEL_MAX}'
