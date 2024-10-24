@@ -273,7 +273,7 @@ class Agent301:
             return None
 
         while True:
-            resp = await self.session.get(f'https://telegram.agent301.org/?tgWebAppStartParam=onetime{self.ref_token}')
+            resp = await self.session.get(f'https://static.agent301.org/?tgWebAppStartParam=onetime{self.ref_token}')
 
             if resp.status == 520:
                 if self.LANG == 'RU':
